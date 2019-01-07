@@ -8,7 +8,7 @@
   <body>
 
 <?php  require 'template/back/menu.php'; ?>
-
+<!-- Start Main Content -->
 <div class="main-content-container container-fluid px-4">
   <!-- Page Header -->
   <div class="page-header row no-gutters py-4">
@@ -21,7 +21,7 @@
 
   
 </div>
-
+<!-- End Main Content -->
 
 <?php require 'template/back/footer.php'; ?>
 

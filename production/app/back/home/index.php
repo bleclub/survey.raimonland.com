@@ -9,7 +9,9 @@
 
 <?php  require 'template/back/menu.php'; ?>
 
-<div class="main-content-container container-fluid px-4">
+<!-- Start Main Content -->
+<div class="main-content-container container-fluid px-4"> 
+  
   <!-- Page Header -->
   <div class="page-header row no-gutters py-4">
     <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
@@ -105,6 +107,7 @@
             <!-- End Small Stats Blocks -->
 
 </div>
+<!-- End Main Content -->
 
 <?php require 'template/back/footer.php'; ?>
 
