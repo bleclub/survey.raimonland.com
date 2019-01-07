@@ -1,0 +1,27 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.84
+
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+RewriteBase /vanlop/projcets/raimonland/survey.raimonland.com/production/
+RewriteRule ^(front|back)/(.*)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&type=$5&id=$6 [L,QSA]
+RewriteRule ^(front|back)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&id=$5 [L,QSA]
+RewriteRule ^(front|back)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&id=$4 [L,QSA]
+RewriteRule ^(front|back)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3 [L,QSA]
+RewriteRule ^(front|back)/(.*)$ index.php?onpage=$1&url=$2&a=index [L,QSA]
+RewriteRule ^(front|back)$ index.php?onpage=$1&url=home&a=index [L,QSA]
+
+#back
+RewriteRule ^login$ index.php?onpage=back&url=home&a=index [L,QSA]
+
+#front
+# RewriteRule ^(th|en)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=$3&page=$4&id=$5 [L,QSA]
+# RewriteRule ^(th|en)/(.*)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=info&page=$3&id=$4 [L,QSA]
+# RewriteRule ^(th|en)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&page=$3 [L,QSA]
+# RewriteRule ^(th|en)/(.*)$ index.php?onpage=front&url=$2&a=index&lang=$1 [L,QSA]
+# RewriteRule ^(th|en)/$ index.php?onpage=front&url=home&a=index&lang=$1 [L,QSA]
+# RewriteRule ^(th|en)$ index.php?onpage=front&url=home&a=index&lang=$1 [L,QSA]
+# RewriteRule ^/$ index.php?onpage=front&url=home&a=index [L,QSA]
+# RewriteRule ^$ index.php?onpage=front&url=home&a=index [L,QSA]
+
+</IfModule>
