@@ -7,7 +7,7 @@ function base_url() {
 	// } else {
 	// 	return "http://bigfans.io/pacc.go.th/sandbox";
 	// }
-	return "http://localhost/vanlop/projcets/raimonland/survey.raimonland.com/production";
+	return "http://localhost/vanlop/raimonland/survey.raimonland.com/production";
 
 }
 

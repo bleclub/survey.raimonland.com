@@ -3,7 +3,7 @@
 
 <IfModule mod_rewrite.c>
 RewriteEngine on 
-RewriteBase /vanlop/projcets/raimonland/survey.raimonland.com/production/
+RewriteBase /vanlop/raimonland/survey.raimonland.com/production/
 RewriteRule ^(front|back)/(.*)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&type=$5&id=$6 [L,QSA]
 RewriteRule ^(front|back)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&id=$5 [L,QSA]
 RewriteRule ^(front|back)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&id=$4 [L,QSA]

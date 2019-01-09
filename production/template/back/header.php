@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $baseUrl.'/assets/css/shards-dashboards.1.1.0.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo $baseUrl.'/assets/css/extras.1.1.0.min.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $baseUrl.'/assets/css/custom.css'; ?>">
     <!-- Favicon -->
     <link rel="icon" href="<?php echo $baseUrl.'/assets/img/favicon.png'; ?>" type="image/x-icon">
     <link rel="mask-icon" href="<?php echo $baseUrl.'/assets/img/favicon.png'; ?>" color="#ffffff">

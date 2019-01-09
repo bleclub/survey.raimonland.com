@@ -1,21 +1,21 @@
         <footer class="main-footer d-flex p-2 px-3 bg-white border-top">
-            <!-- <ul class="nav">
+            <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="<?php echo $baseUrl; ?>">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+                <a class="nav-link" href="#">Contact Us</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
-              </li>
-            </ul> -->
+              </li> -->
+            </ul>
             <span class="copyright ml-auto my-auto mr-2">Copyright © <?php echo date('Y'); ?>
               <a href="https://www.raimonland.com" rel="nofollow">Raimon Land PLC.</a>
             </span>
