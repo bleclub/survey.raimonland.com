@@ -8,7 +8,7 @@ require 'lib/core.php';
 require 'lib/cons.php';
 require 'lib/database.php';
 require 'lib/security.php';
-require 'lib/thaidate.php';
+// require 'lib/thaidate.php';
 
 
 // $dpm = isset($_GET['dpm']) ? $_GET['dpm'] : "pacc";
